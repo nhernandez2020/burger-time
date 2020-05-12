@@ -1,3 +1,1 @@
-exports.key = {
-    secret: process.env.MYSQL
-};
+exports.key = { secret: process.env.MYSQL };

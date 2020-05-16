@@ -2,7 +2,7 @@ var express = require("express");
 
 var PORT = process.env.PORT || 8080;
 var mysql_URI = process.env.mysql_URI ||
-  "mysql://localhost/eat-da-burger";
+ // "mysql://localhost/eat-da-burger";
 
 var app = express();
 

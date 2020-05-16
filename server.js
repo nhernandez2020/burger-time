@@ -1,8 +1,6 @@
 var express = require("express");
 
 var PORT = process.env.PORT || 8080;
-var mysql_URI = process.env.mysql_URI ||
- // "mysql://localhost/eat-da-burger";
 
 var app = express();
 
@@ -25,7 +23,7 @@ var routes = require("./controllers/burger_controller");
 app.use(routes);
 
 // Start our server so that it can begin listening to client requests.
-app.listen(PORT, function () {
+app.listen(PORT, () => {
   // Log (server-side) when our server has started
   console.log("Server listening on: http://localhost:" + PORT);
 });

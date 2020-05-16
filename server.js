@@ -6,8 +6,6 @@ var mysql_URI = process.env.mysql_URI ||
 
 var app = express();
 
-app.use(logger("dev"));
-
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
 

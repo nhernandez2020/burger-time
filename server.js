@@ -2,10 +2,8 @@ var express = require("express");
 
 var app = express();
 
-//var PORT = process.env.PORT || 8080;
-process.env.NODE_ENV === 'production'; {
-  app.use(express.static('public'));
-}
+var PORT = process.env.PORT || 8080;
+
 
 
 

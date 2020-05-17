@@ -27,7 +27,7 @@ app.set("view engine", "handlebars");
 var routes = require("./controllers/burger_controller");
 
 app.get("/", (req, res) => {
-  res.render("/assets/burgers.js");
+  res.render("/burgers.js");
 })
 app.use(routes);
 
